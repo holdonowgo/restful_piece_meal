@@ -1,0 +1,29 @@
+{
+  "name": "restful_piece_meal",
+  "version": "0.0.1",
+  "description": "a restful backend api for piece_meal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/holdonowgo/restful_piece_meal.git"
+  },
+  "author": "randallspencer@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holdonowgo/restful_piece_meal/issues"
+  },
+  "homepage": "https://github.com/holdonowgo/restful_piece_meal#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.1",
+    "chai": "^3.5.0",
+    "knex": "^0.12.7",
+    "mocha": "^3.2.0",
+    "morgan": "^1.8.1",
+    "pg": "^6.1.3",
+    "supertest": "^3.0.0"
+  }
+}
